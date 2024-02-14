@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#1c814c73;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#Navebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: .5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: #29f700 !important;
+}
+
+.btn {
+  background-color: #29f700;
+  color: #ffffff;
+  width: 5rem;
+  border-radius: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+
+  border-bottom: 2px solid #29f700;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/****** home Image*******/
+#Home {
+  background: url(coffee-3173055_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+#Home h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 0px #615959,
+    1px 1px 0px #ffffff,
+    1px 1px 0px #725656,
+    1px 1px 0px #7a3737
+}
+
+/* style.css */
+
+#Home p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#Home .input-group {
+  width: 40%;
+  height: 40px;
+}
+
+.signin {
+  background: #0a571a !important;
+  border-radius: 0 !important;
+  color: whitesmoke !important;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
+  width: 140px;
+}
+
+.img-fluid {
+  padding: 33px;
+}
+
+
+#about {
+  background: linear-gradient(to right, #ea1d6f, #eb466b 100%);
+}
+
+#about h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color: #f5f5f5;
+}
+
+#product {
+  background: #e5e5e5;
+}
+
+#product h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#product img {
+  width: fit-content;
+  height: 150px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  background: #e5e5e5 !important;
+  border: none !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+    inset 4px 4px 10px rgb(255, 255, 255);
+  border-radius: 20px !important;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 60px;
+  transition: .2s;
+}
+
+.card:hover {
+  box-shadow: inset 5px 10px rgba(0, 0, 0, .3),
+    inset -4px -4px 10px rgb(255, 255, 255);
+  transition: .2s;
+
+}
+
+.card-body a {
+  border-radius: 4px !important;
+  width: fit-content;
+}
+
+/* --------Contact-------------- */
+.box {
+  width: 80% !important;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#Contact input {
+  margin: 10px 0px;
+}
+
+#Contact textarea {
+  margin: 10px 0px;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: rgba(0, 0, 0, .8);
+  color: #eeff00;
+  margin-top: -30px;
+  text-align: center;
+  padding: 3px;
+}
